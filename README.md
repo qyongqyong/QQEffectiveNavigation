@@ -27,3 +27,6 @@ pod 'QQEffectiveNavigation'
 ## License
 
 QQEffectiveNavigation is available under the MIT license. See the LICENSE file for more info.
+
+## 致谢
+十分感谢 FDFullscreenPopGesture 作者

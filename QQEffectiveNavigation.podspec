@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/qyongqyong/QQEffectiveNavigation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'qiongqiong' => '2742154651@qq.com' }
+  s.author           = { 'qiongqiong' => 'qiongqiong@126.com' }
   s.source           = { :git => 'https://github.com/qyongqyong/QQEffectiveNavigation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
