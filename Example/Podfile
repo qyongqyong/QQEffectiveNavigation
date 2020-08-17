@@ -1,14 +1,13 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '8.0'
 
 target 'QQEffectiveNavigation_Example' do
   pod 'QQEffectiveNavigation', :path => '../'
-#  pod 'QQEffectiveNavigation'
-  
+
   target 'QQEffectiveNavigation_Tests' do
     inherit! :search_paths
 
-#    pod 'FBSnapshotTestCase'
+    pod 'FBSnapshotTestCase'
   end
 end

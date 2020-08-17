@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## QQEffectiveNavigation
 
-Copyright (c) 2020 筇琼 <qiongqiong@126.com>
+Copyright (c) 2020 qiongqiong <qiongqiong@126.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -7,20 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1889A1CF3C22B6830B9B7C9ED59DD890 /* Pods-QQEffectiveNavigation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 708E1C7FD180A3D5F9DAF54DD6205EA8 /* Pods-QQEffectiveNavigation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		200E58DF574AED93F3FEED42FC5A846A /* Pods-QQEffectiveNavigation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831027ACB9F7CDCACC30ABD7553EFA81 /* Pods-QQEffectiveNavigation_Tests-dummy.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		60494100E4E801B93BA3FDF0D7C10826 /* UINavigationController+QQEffectiveNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 538B06DEC5E5633BCA8BA8746ECA9855 /* UINavigationController+QQEffectiveNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83ECDC1AD3104F6741ADD4FB57726BF2 /* Pods-QQEffectiveNavigation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4A4C71C794833FE080198BB9FA1ADB /* Pods-QQEffectiveNavigation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		986600D90CEF56B73E7CED1E27CC8147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A21EC7373950DA3AFF14B15B1186C8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A5E78454589139B0BD3EE6A52A9F9DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		83ECDC1AD3104F6741ADD4FB57726BF2 /* Pods-QQEffectiveNavigation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343A742BAF3601EE1908A0CDF16C1403 /* Pods-QQEffectiveNavigation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		986600D90CEF56B73E7CED1E27CC8147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		A5E78454589139B0BD3EE6A52A9F9DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		AC2338564389C4D57EE1DEEFF91E7D96 /* UINavigationController+QQEffectiveNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD7D933B17BA980CB3AB47303919F6 /* UINavigationController+QQEffectiveNavigation.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B6E020F62C6796C7694FE500E5098B50 /* Pods-QQEffectiveNavigation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105B104BA02342FEB9E7DC5F32FA490 /* Pods-QQEffectiveNavigation_Tests-dummy.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C078D5DFEB2C7F3152A8A85AE7262547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF0BD820643B343DEF745758B00CA19 /* Pods-QQEffectiveNavigation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1513ADC3AB6B4F7052D6ADF99673E0E8 /* Pods-QQEffectiveNavigation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D6AB8F3CAE4170F7106B3F62257539B9 /* QQEffectiveNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78A7060C77A08748CCFDEB9F789EB13 /* QQEffectiveNavigation-dummy.m */; };
 		DC9D7FC4F31E654804A119FDAE1CB694 /* QQEffectiveNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0DE1B5B52EF6011FAC3A7A2514ECC8 /* QQEffectiveNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4C71482C1F6BA4A3426462C5CA632F /* Pods-QQEffectiveNavigation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CED8C78165285892255FBECA787474 /* Pods-QQEffectiveNavigation_Example-dummy.m */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4C71482C1F6BA4A3426462C5CA632F /* Pods-QQEffectiveNavigation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0A60307DCD07CC8035D2CF031753B /* Pods-QQEffectiveNavigation_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0B1648395405585D9F0E68E3ACA9866E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9331B9B2885B3DCC81684B9453C24D15;
+			remoteInfo = "Pods-QQEffectiveNavigation_Example";
+		};
 		0E446610A77A45955DD59DEF335D487D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -28,49 +56,75 @@
 			remoteGlobalIDString = D6C25E809672E0F959FFB6E335B01BFB;
 			remoteInfo = QQEffectiveNavigation;
 		};
-		1A4F1BC4E003922AB075A0882F7A5855 /* PBXContainerItemProxy */ = {
+		DA3552BD6E40E55109741A539EA8D286 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9331B9B2885B3DCC81684B9453C24D15;
-			remoteInfo = "Pods-QQEffectiveNavigation_Example";
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01B556A9431DC977D72CC92DD30A1F91 /* Pods_QQEffectiveNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQEffectiveNavigation_Example.framework; path = "Pods-QQEffectiveNavigation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		020C250080DF815DA31A1FDC757378F9 /* Pods-QQEffectiveNavigation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Tests-Info.plist"; sourceTree = "<group>"; };
+		0669FAA153307756F2B88C1236460E74 /* Pods-QQEffectiveNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		12E977DF185A8C151E0648B417CFDF51 /* QQEffectiveNavigation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QQEffectiveNavigation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1513ADC3AB6B4F7052D6ADF99673E0E8 /* Pods-QQEffectiveNavigation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQEffectiveNavigation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1807501685EB1C1B141EC3C930C71F73 /* QQEffectiveNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QQEffectiveNavigation.modulemap; sourceTree = "<group>"; };
+		1AF8634F0E9FE0E1EE2FFF963AD8C401 /* Pods-QQEffectiveNavigation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Tests-Info.plist"; sourceTree = "<group>"; };
+		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1C5788D205BA10B21615835BC391484F /* Pods-QQEffectiveNavigation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQEffectiveNavigation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1EAB0A8D28AC3B0DD59ADEB4FB9A50D7 /* QQEffectiveNavigation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QQEffectiveNavigation.xcconfig; sourceTree = "<group>"; };
-		1FF4ACB6B8D1D3B40EDA278BF261973E /* Pods-QQEffectiveNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F063901B644293511B90269BE8757F6 /* Pods-QQEffectiveNavigation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQEffectiveNavigation_Example.modulemap"; sourceTree = "<group>"; };
 		27BD7D933B17BA980CB3AB47303919F6 /* UINavigationController+QQEffectiveNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+QQEffectiveNavigation.m"; path = "QQEffectiveNavigation/Classes/UINavigationController+QQEffectiveNavigation.m"; sourceTree = "<group>"; };
-		30740F535C8CCE538543E062F41B1F34 /* Pods-QQEffectiveNavigation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQEffectiveNavigation_Example.modulemap"; sourceTree = "<group>"; };
-		31E7F0C265A630E984EBBAEA4D05C433 /* Pods-QQEffectiveNavigation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQEffectiveNavigation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3588DCF9D63F2C3E7BE61D8C75A4E601 /* Pods-QQEffectiveNavigation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQEffectiveNavigation_Tests.modulemap"; sourceTree = "<group>"; };
+		343A742BAF3601EE1908A0CDF16C1403 /* Pods-QQEffectiveNavigation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQEffectiveNavigation_Example-umbrella.h"; sourceTree = "<group>"; };
+		367D1FED05753784B7D9679B2001865E /* Pods-QQEffectiveNavigation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3D98C7E5B2D661E2F1DF9A9E847F0E90 /* QQEffectiveNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QQEffectiveNavigation.framework; path = QQEffectiveNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE83E0E4A3133DB773169B8F87E491D /* Pods-QQEffectiveNavigation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Example-Info.plist"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		448D642EB9B35A7773ADBA4102859201 /* QQEffectiveNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QQEffectiveNavigation-Info.plist"; sourceTree = "<group>"; };
 		4C0DE1B5B52EF6011FAC3A7A2514ECC8 /* QQEffectiveNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQEffectiveNavigation-umbrella.h"; sourceTree = "<group>"; };
 		4C3B3F135910226B73CDBAA1C5E8588F /* QQEffectiveNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQEffectiveNavigation-prefix.pch"; sourceTree = "<group>"; };
+		4DC0A60307DCD07CC8035D2CF031753B /* Pods-QQEffectiveNavigation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQEffectiveNavigation_Example-dummy.m"; sourceTree = "<group>"; };
+		52FEFD69B6AC2A9F21983FAAE2047CAB /* Pods-QQEffectiveNavigation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQEffectiveNavigation_Tests.modulemap"; sourceTree = "<group>"; };
 		538B06DEC5E5633BCA8BA8746ECA9855 /* UINavigationController+QQEffectiveNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+QQEffectiveNavigation.h"; path = "QQEffectiveNavigation/Classes/UINavigationController+QQEffectiveNavigation.h"; sourceTree = "<group>"; };
-		5B93CE91B05C86D710DB5ACD14B9A91B /* Pods-QQEffectiveNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5DB77E985CD0C3D7F8372208E0DE1C4D /* Pods-QQEffectiveNavigation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQEffectiveNavigation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64D37018C65054FB630892F614D680E5 /* Pods-QQEffectiveNavigation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQEffectiveNavigation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		65068697C6BBBA07DC96F40FFE13D50F /* Pods-QQEffectiveNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		66CF97BB0FD12D60D33F836A6D058059 /* Pods-QQEffectiveNavigation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		701044193D53463EDC2900F73E737A10 /* Pods-QQEffectiveNavigation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Example-Info.plist"; sourceTree = "<group>"; };
-		708E1C7FD180A3D5F9DAF54DD6205EA8 /* Pods-QQEffectiveNavigation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQEffectiveNavigation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		831027ACB9F7CDCACC30ABD7553EFA81 /* Pods-QQEffectiveNavigation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQEffectiveNavigation_Tests-dummy.m"; sourceTree = "<group>"; };
-		8EC199E53F2A8C8940A9CB6B7A76C408 /* Pods-QQEffectiveNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		7534CF7026FA1B4E1BBA5A685D94ABD6 /* Pods-QQEffectiveNavigation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQEffectiveNavigation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		77F9411D17B2EAABB028ED2710564EFF /* Pods-QQEffectiveNavigation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQEffectiveNavigation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8105B104BA02342FEB9E7DC5F32FA490 /* Pods-QQEffectiveNavigation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQEffectiveNavigation_Tests-dummy.m"; sourceTree = "<group>"; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		935066D40D3EC1784B2EEF8ED9ADDF69 /* Pods-QQEffectiveNavigation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FA97848CAB6793926D09F29B57E9C33 /* Pods-QQEffectiveNavigation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQEffectiveNavigation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FE78ADF61E2D97FB3453C1F03E8CAB8 /* Pods-QQEffectiveNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		A78A7060C77A08748CCFDEB9F789EB13 /* QQEffectiveNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QQEffectiveNavigation-dummy.m"; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		BD1BEBC96D0F5F2160E6CF6F70DC90C8 /* Pods_QQEffectiveNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQEffectiveNavigation_Tests.framework; path = "Pods-QQEffectiveNavigation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6CED8C78165285892255FBECA787474 /* Pods-QQEffectiveNavigation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQEffectiveNavigation_Example-dummy.m"; sourceTree = "<group>"; };
-		CF4A4C71C794833FE080198BB9FA1ADB /* Pods-QQEffectiveNavigation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQEffectiveNavigation_Example-umbrella.h"; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E2E40FD97A72E1AC4557EE00C7116F8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EA8D88D4E97C0256A5C0BB710E9A560E /* Pods-QQEffectiveNavigation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQEffectiveNavigation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ED30EF786C28051AE41264FDB22BEE27 /* Pods-QQEffectiveNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDB194F36926E0F73472FB6C10745130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EEE7AED7ABF530C87BCDF59228A4CA33 /* Pods-QQEffectiveNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQEffectiveNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,27 +144,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8C4DE574610E28BD83F36E69B599A20 /* Frameworks */ = {
+		D3C392CB03AC587413F3F7B54B046C57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21EC7373950DA3AFF14B15B1186C8C9 /* Foundation.framework in Frameworks */,
+				C078D5DFEB2C7F3152A8A85AE7262547 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01622985FD9A3D5092E8AA2E774DE685 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01B556A9431DC977D72CC92DD30A1F91 /* Pods_QQEffectiveNavigation_Example.framework */,
-				BD1BEBC96D0F5F2160E6CF6F70DC90C8 /* Pods_QQEffectiveNavigation_Tests.framework */,
-				3D98C7E5B2D661E2F1DF9A9E847F0E90 /* QQEffectiveNavigation.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		12FB87C0BE0BEC87199A291BB82EF4C5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,30 +184,29 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		51A4AA8824F7A508128FD652D0222E5F /* Pods-QQEffectiveNavigation_Example */ = {
+		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30740F535C8CCE538543E062F41B1F34 /* Pods-QQEffectiveNavigation_Example.modulemap */,
-				5DB77E985CD0C3D7F8372208E0DE1C4D /* Pods-QQEffectiveNavigation_Example-acknowledgements.markdown */,
-				66CF97BB0FD12D60D33F836A6D058059 /* Pods-QQEffectiveNavigation_Example-acknowledgements.plist */,
-				C6CED8C78165285892255FBECA787474 /* Pods-QQEffectiveNavigation_Example-dummy.m */,
-				64D37018C65054FB630892F614D680E5 /* Pods-QQEffectiveNavigation_Example-frameworks.sh */,
-				701044193D53463EDC2900F73E737A10 /* Pods-QQEffectiveNavigation_Example-Info.plist */,
-				CF4A4C71C794833FE080198BB9FA1ADB /* Pods-QQEffectiveNavigation_Example-umbrella.h */,
-				65068697C6BBBA07DC96F40FFE13D50F /* Pods-QQEffectiveNavigation_Example.debug.xcconfig */,
-				5B93CE91B05C86D710DB5ACD14B9A91B /* Pods-QQEffectiveNavigation_Example.release.xcconfig */,
+				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
+				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
+				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
+				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
+				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
+				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
 			);
-			name = "Pods-QQEffectiveNavigation_Example";
-			path = "Target Support Files/Pods-QQEffectiveNavigation_Example";
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		6532E6D3FB834D74505A9527D37A518C /* Targets Support Files */ = {
+		5005300FECB87FB47B7DE2F4073C9A44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51A4AA8824F7A508128FD652D0222E5F /* Pods-QQEffectiveNavigation_Example */,
-				E9F8A3C12D599D83F408DB796F6D4D86 /* Pods-QQEffectiveNavigation_Tests */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				01B556A9431DC977D72CC92DD30A1F91 /* Pods_QQEffectiveNavigation_Example.framework */,
+				BD1BEBC96D0F5F2160E6CF6F70DC90C8 /* Pods_QQEffectiveNavigation_Tests.framework */,
+				3D98C7E5B2D661E2F1DF9A9E847F0E90 /* QQEffectiveNavigation.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7B800C92BA6866B35BE61ACE2B7B9F30 /* Support Files */ = {
@@ -169,12 +223,106 @@
 			path = "Example/Pods/Target Support Files/QQEffectiveNavigation";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		8DF1BCD748A484B73E73582D3A6C09E7 /* Pods-QQEffectiveNavigation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52FEFD69B6AC2A9F21983FAAE2047CAB /* Pods-QQEffectiveNavigation_Tests.modulemap */,
+				77F9411D17B2EAABB028ED2710564EFF /* Pods-QQEffectiveNavigation_Tests-acknowledgements.markdown */,
+				367D1FED05753784B7D9679B2001865E /* Pods-QQEffectiveNavigation_Tests-acknowledgements.plist */,
+				8105B104BA02342FEB9E7DC5F32FA490 /* Pods-QQEffectiveNavigation_Tests-dummy.m */,
+				7534CF7026FA1B4E1BBA5A685D94ABD6 /* Pods-QQEffectiveNavigation_Tests-frameworks.sh */,
+				1AF8634F0E9FE0E1EE2FFF963AD8C401 /* Pods-QQEffectiveNavigation_Tests-Info.plist */,
+				1513ADC3AB6B4F7052D6ADF99673E0E8 /* Pods-QQEffectiveNavigation_Tests-umbrella.h */,
+				ED30EF786C28051AE41264FDB22BEE27 /* Pods-QQEffectiveNavigation_Tests.debug.xcconfig */,
+				9FE78ADF61E2D97FB3453C1F03E8CAB8 /* Pods-QQEffectiveNavigation_Tests.release.xcconfig */,
+			);
+			name = "Pods-QQEffectiveNavigation_Tests";
+			path = "Target Support Files/Pods-QQEffectiveNavigation_Tests";
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9E671CD8378BF69675AD7D7AC4725A27 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7238338FA21CE81B63C219C2E3E7C6E /* Pods-QQEffectiveNavigation_Example */,
+				8DF1BCD748A484B73E73582D3A6C09E7 /* Pods-QQEffectiveNavigation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B7238338FA21CE81B63C219C2E3E7C6E /* Pods-QQEffectiveNavigation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F063901B644293511B90269BE8757F6 /* Pods-QQEffectiveNavigation_Example.modulemap */,
+				1C5788D205BA10B21615835BC391484F /* Pods-QQEffectiveNavigation_Example-acknowledgements.markdown */,
+				935066D40D3EC1784B2EEF8ED9ADDF69 /* Pods-QQEffectiveNavigation_Example-acknowledgements.plist */,
+				4DC0A60307DCD07CC8035D2CF031753B /* Pods-QQEffectiveNavigation_Example-dummy.m */,
+				EA8D88D4E97C0256A5C0BB710E9A560E /* Pods-QQEffectiveNavigation_Example-frameworks.sh */,
+				3DE83E0E4A3133DB773169B8F87E491D /* Pods-QQEffectiveNavigation_Example-Info.plist */,
+				343A742BAF3601EE1908A0CDF16C1403 /* Pods-QQEffectiveNavigation_Example-umbrella.h */,
+				EEE7AED7ABF530C87BCDF59228A4CA33 /* Pods-QQEffectiveNavigation_Example.debug.xcconfig */,
+				0669FAA153307756F2B88C1236460E74 /* Pods-QQEffectiveNavigation_Example.release.xcconfig */,
+			);
+			name = "Pods-QQEffectiveNavigation_Example";
+			path = "Target Support Files/Pods-QQEffectiveNavigation_Example";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C909E6A43BE58777A1B37B1E3E870E77 /* QQEffectiveNavigation */ = {
@@ -194,53 +342,45 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1B222423FB0EC00B4BD871FA8F1A37F7 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				01622985FD9A3D5092E8AA2E774DE685 /* Products */,
-				6532E6D3FB834D74505A9527D37A518C /* Targets Support Files */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				5005300FECB87FB47B7DE2F4073C9A44 /* Products */,
+				9E671CD8378BF69675AD7D7AC4725A27 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E9F8A3C12D599D83F408DB796F6D4D86 /* Pods-QQEffectiveNavigation_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3588DCF9D63F2C3E7BE61D8C75A4E601 /* Pods-QQEffectiveNavigation_Tests.modulemap */,
-				31E7F0C265A630E984EBBAEA4D05C433 /* Pods-QQEffectiveNavigation_Tests-acknowledgements.markdown */,
-				9FA97848CAB6793926D09F29B57E9C33 /* Pods-QQEffectiveNavigation_Tests-acknowledgements.plist */,
-				831027ACB9F7CDCACC30ABD7553EFA81 /* Pods-QQEffectiveNavigation_Tests-dummy.m */,
-				020C250080DF815DA31A1FDC757378F9 /* Pods-QQEffectiveNavigation_Tests-Info.plist */,
-				708E1C7FD180A3D5F9DAF54DD6205EA8 /* Pods-QQEffectiveNavigation_Tests-umbrella.h */,
-				1FF4ACB6B8D1D3B40EDA278BF261973E /* Pods-QQEffectiveNavigation_Tests.debug.xcconfig */,
-				8EC199E53F2A8C8940A9CB6B7A76C408 /* Pods-QQEffectiveNavigation_Tests.release.xcconfig */,
-			);
-			name = "Pods-QQEffectiveNavigation_Tests";
-			path = "Target Support Files/Pods-QQEffectiveNavigation_Tests";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		408F3FDB1FD281530DBFE74A9A04D14E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC9D7FC4F31E654804A119FDAE1CB694 /* QQEffectiveNavigation-umbrella.h in Headers */,
 				60494100E4E801B93BA3FDF0D7C10826 /* UINavigationController+QQEffectiveNavigation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68BEB1E0C2CF959EDB87728836C0DD61 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1889A1CF3C22B6830B9B7C9ED59DD890 /* Pods-QQEffectiveNavigation_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,22 +392,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F434DDADB11C2F1D424920A21B119359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF0BD820643B343DEF745758B00CA19 /* Pods-QQEffectiveNavigation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0CC747612FB5A37995D1FB37955607D1 /* Pods-QQEffectiveNavigation_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57F1569F51E2F7AA56B4C65A731436C7 /* Build configuration list for PBXNativeTarget "Pods-QQEffectiveNavigation_Tests" */;
+			buildConfigurationList = 85E2261822709BE2C8D291F8AF470535 /* Build configuration list for PBXNativeTarget "Pods-QQEffectiveNavigation_Tests" */;
 			buildPhases = (
-				68BEB1E0C2CF959EDB87728836C0DD61 /* Headers */,
-				902B4B0FD67F70895247FF2D80FA74D2 /* Sources */,
-				D8C4DE574610E28BD83F36E69B599A20 /* Frameworks */,
-				718A7716124D14C77C0C4092E14DF513 /* Resources */,
+				F434DDADB11C2F1D424920A21B119359 /* Headers */,
+				1FBD833C81B3F61CDF9C6A69B149FB7A /* Sources */,
+				D3C392CB03AC587413F3F7B54B046C57 /* Frameworks */,
+				5485D3BFB5CB3DE3129404A1B9772C1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				93E65C004553847D89762F0E58FD1CDF /* PBXTargetDependency */,
+				1B68FB0C9A94F82A80A816BB0A49199B /* PBXTargetDependency */,
+				A4B1C8FD6E15F933E917CF9CC71125B3 /* PBXTargetDependency */,
 			);
 			name = "Pods-QQEffectiveNavigation_Tests";
 			productName = "Pods-QQEffectiveNavigation_Tests";
@@ -291,6 +440,24 @@
 			name = "Pods-QQEffectiveNavigation_Example";
 			productName = "Pods-QQEffectiveNavigation_Example";
 			productReference = 01B556A9431DC977D72CC92DD30A1F91 /* Pods_QQEffectiveNavigation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6C25E809672E0F959FFB6E335B01BFB /* QQEffectiveNavigation */ = {
@@ -329,10 +496,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 01622985FD9A3D5092E8AA2E774DE685 /* Products */;
+			productRefGroup = 5005300FECB87FB47B7DE2F4073C9A44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				9331B9B2885B3DCC81684B9453C24D15 /* Pods-QQEffectiveNavigation_Example */,
 				0CC747612FB5A37995D1FB37955607D1 /* Pods-QQEffectiveNavigation_Tests */,
 				D6C25E809672E0F959FFB6E335B01BFB /* QQEffectiveNavigation */,
@@ -341,7 +509,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		718A7716124D14C77C0C4092E14DF513 /* Resources */ = {
+		5485D3BFB5CB3DE3129404A1B9772C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,11 +540,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		902B4B0FD67F70895247FF2D80FA74D2 /* Sources */ = {
+		1FBD833C81B3F61CDF9C6A69B149FB7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200E58DF574AED93F3FEED42FC5A846A /* Pods-QQEffectiveNavigation_Tests-dummy.m in Sources */,
+				B6E020F62C6796C7694FE500E5098B50 /* Pods-QQEffectiveNavigation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +584,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93E65C004553847D89762F0E58FD1CDF /* PBXTargetDependency */ = {
+		1B68FB0C9A94F82A80A816BB0A49199B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = DA3552BD6E40E55109741A539EA8D286 /* PBXContainerItemProxy */;
+		};
+		A4B1C8FD6E15F933E917CF9CC71125B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QQEffectiveNavigation_Example";
 			target = 9331B9B2885B3DCC81684B9453C24D15 /* Pods-QQEffectiveNavigation_Example */;
-			targetProxy = 1A4F1BC4E003922AB075A0882F7A5855 /* PBXContainerItemProxy */;
+			targetProxy = 0B1648395405585D9F0E68E3ACA9866E /* PBXContainerItemProxy */;
 		};
 		BD93FA277DCBA3132EFA2FEA085D96BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -408,41 +605,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		184FBB561AD284814A60BD2058DA718A /* Release */ = {
+		13EC46CF0AEAD7A210648BE9CF0AA117 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EAB0A8D28AC3B0DD59ADEB4FB9A50D7 /* QQEffectiveNavigation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation.modulemap";
-				PRODUCT_MODULE_NAME = QQEffectiveNavigation;
-				PRODUCT_NAME = QQEffectiveNavigation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2CD0D914E24EB7259DF5908619CC3D99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B93CE91B05C86D710DB5ACD14B9A91B /* Pods-QQEffectiveNavigation_Example.release.xcconfig */;
+			baseConfigurationReference = EEE7AED7ABF530C87BCDF59228A4CA33 /* Pods-QQEffectiveNavigation_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -456,41 +621,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Example/Pods-QQEffectiveNavigation_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Example/Pods-QQEffectiveNavigation_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		36F85C435F8FFED44F5C03A79B39CD7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65068697C6BBBA07DC96F40FFE13D50F /* Pods-QQEffectiveNavigation_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Example/Pods-QQEffectiveNavigation_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Example/Pods-QQEffectiveNavigation_Example.modulemap";
@@ -507,9 +638,9 @@
 			};
 			name = Debug;
 		};
-		820F11C4E9013FEA5DB2EFCDA1A5A022 /* Debug */ = {
+		2FA886D98B7D92879BEB0DE91D820AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FF4ACB6B8D1D3B40EDA278BF261973E /* Pods-QQEffectiveNavigation_Tests.debug.xcconfig */;
+			baseConfigurationReference = ED30EF786C28051AE41264FDB22BEE27 /* Pods-QQEffectiveNavigation_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -523,7 +654,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Tests/Pods-QQEffectiveNavigation_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Tests/Pods-QQEffectiveNavigation_Tests.modulemap";
@@ -540,7 +671,41 @@
 			};
 			name = Debug;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		3060499803927C41027A0CEC3501C883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE78ADF61E2D97FB3453C1F03E8CAB8 /* Pods-QQEffectiveNavigation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Tests/Pods-QQEffectiveNavigation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Tests/Pods-QQEffectiveNavigation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -588,7 +753,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -600,7 +765,71 @@
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C27AB597CD2FB46B3256129B3E6F368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAB0A8D28AC3B0DD59ADEB4FB9A50D7 /* QQEffectiveNavigation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation.modulemap";
+				PRODUCT_MODULE_NAME = QQEffectiveNavigation;
+				PRODUCT_NAME = QQEffectiveNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -651,7 +880,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -664,7 +893,7 @@
 			};
 			name = Debug;
 		};
-		C054F1751C7848BB932A919CBD83FB4B /* Debug */ = {
+		A20D2C082483C2EB0413C5F6AE1EBC10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EAB0A8D28AC3B0DD59ADEB4FB9A50D7 /* QQEffectiveNavigation.xcconfig */;
 			buildSettings = {
@@ -680,7 +909,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QQEffectiveNavigation/QQEffectiveNavigation.modulemap";
 				PRODUCT_MODULE_NAME = QQEffectiveNavigation;
@@ -695,9 +924,9 @@
 			};
 			name = Debug;
 		};
-		D029A2CE40CEAA96F75A582033C95C20 /* Release */ = {
+		EA3FB54E866C2635218CC89FA037CAA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC199E53F2A8C8940A9CB6B7A76C408 /* Pods-QQEffectiveNavigation_Tests.release.xcconfig */;
+			baseConfigurationReference = 0669FAA153307756F2B88C1236460E74 /* Pods-QQEffectiveNavigation_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -709,12 +938,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Tests/Pods-QQEffectiveNavigation_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Example/Pods-QQEffectiveNavigation_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Tests/Pods-QQEffectiveNavigation_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QQEffectiveNavigation_Example/Pods-QQEffectiveNavigation_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -729,14 +958,45 @@
 			};
 			name = Release;
 		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1EE2E31A36C970BDD9B76761EB148F46 /* Build configuration list for PBXNativeTarget "Pods-QQEffectiveNavigation_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36F85C435F8FFED44F5C03A79B39CD7B /* Debug */,
-				2CD0D914E24EB7259DF5908619CC3D99 /* Release */,
+				13EC46CF0AEAD7A210648BE9CF0AA117 /* Debug */,
+				EA3FB54E866C2635218CC89FA037CAA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -744,17 +1004,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57F1569F51E2F7AA56B4C65A731436C7 /* Build configuration list for PBXNativeTarget "Pods-QQEffectiveNavigation_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				820F11C4E9013FEA5DB2EFCDA1A5A022 /* Debug */,
-				D029A2CE40CEAA96F75A582033C95C20 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -762,8 +1013,26 @@
 		60E34DD41959758A114D835091E61550 /* Build configuration list for PBXNativeTarget "QQEffectiveNavigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C054F1751C7848BB932A919CBD83FB4B /* Debug */,
-				184FBB561AD284814A60BD2058DA718A /* Release */,
+				A20D2C082483C2EB0413C5F6AE1EBC10 /* Debug */,
+				6C27AB597CD2FB46B3256129B3E6F368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E2261822709BE2C8D291F8AF470535 /* Build configuration list for PBXNativeTarget "Pods-QQEffectiveNavigation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA886D98B7D92879BEB0DE91D820AF8 /* Debug */,
+				3060499803927C41027A0CEC3501C883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
