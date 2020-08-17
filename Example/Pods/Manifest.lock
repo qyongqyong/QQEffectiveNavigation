@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QQEffectiveNavigation (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QQEffectiveNavigation (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QQEffectiveNavigation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QQEffectiveNavigation: 3c82ac95114ec4a7763ea084750e32d903841c35
+
+PODFILE CHECKSUM: 69d9070cb70eb347a096b8bc02fceebda640054d
+
+COCOAPODS: 1.8.0

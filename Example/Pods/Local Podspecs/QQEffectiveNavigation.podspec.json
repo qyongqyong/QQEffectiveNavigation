@@ -1,0 +1,22 @@
+{
+  "name": "QQEffectiveNavigation",
+  "version": "0.1.0",
+  "summary": "A short description of QQEffectiveNavigation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/孙庆琼/QQEffectiveNavigation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "孙庆琼": "sunqingqiong@koolearn-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/孙庆琼/QQEffectiveNavigation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QQEffectiveNavigation/Classes/**/*"
+}

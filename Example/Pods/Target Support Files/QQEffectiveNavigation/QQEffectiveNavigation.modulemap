@@ -1,0 +1,6 @@
+framework module QQEffectiveNavigation {
+  umbrella header "QQEffectiveNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}
