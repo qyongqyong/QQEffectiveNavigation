@@ -5,22 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/QQEffectiveNavigation.svg?style=flat)](https://cocoapods.org/pods/QQEffectiveNavigation)
 [![Platform](https://img.shields.io/cocoapods/p/QQEffectiveNavigation.svg?style=flat)](https://cocoapods.org/pods/QQEffectiveNavigation)
 
-## Example
+## 功能
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+一个更加方便管理导航栏的 translucent，barTintColor，tintColor，背景色以及透明度等多种属性的库。
 
-## Requirements
-
-## Installation
-
-QQEffectiveNavigation is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 安装
 
 ```ruby
 pod 'QQEffectiveNavigation'
 ```
 
-## Author
+## 作者
 
 筇琼, qiongqiong@126.com
 
@@ -29,4 +24,4 @@ pod 'QQEffectiveNavigation'
 QQEffectiveNavigation is available under the MIT license. See the LICENSE file for more info.
 
 ## 致谢
-十分感谢 FDFullscreenPopGesture 作者
+十分感谢开源库 FDFullscreenPopGesture 的作者
